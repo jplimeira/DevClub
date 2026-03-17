@@ -1,0 +1,39 @@
+<!--Forms-->
+<!--Formulários para envio de dados-->
+<!--enctype="multipart/form-data" necessário para envio de
+arquivos de outros formatos
+-->
+<form action="" method="get" enctype="multipart/form-data">
+    <h2>Digite seu endereço</h2>
+    <label>
+        Rua:
+    <input type="text" name="rua" autocomplete="street-address">
+    </label>
+
+    <br>
+
+    <label>
+        Número:
+    <input type="number" name="numero">
+    </label>
+
+    <br>
+
+    <label>
+        Email:
+    <input type="email" name="email" autocomplete="email">
+    </label>
+
+    <br>
+
+    <label>
+        Arquivo:
+    <input type="file" name="arquivo">
+    </label>
+
+    <br>
+    
+    <button type="reset">Reset</button>
+
+    <button type="submit">Enviar dados</button>
+</form>
