@@ -1,0 +1,116 @@
+/*
+
+🎨 Cascata no CSS (explicação completa e breve)
+
+A cascata define qual estilo será aplicado quando há 
+várias regras para o mesmo elemento.
+
+👉 O CSS decide baseado em prioridade e também na ordem do código.
+
+📌 Como funciona:
+🥇 1. Prioridade (especificidade)
+
+!important
+
+inline (style)
+
+id
+
+class
+
+tag
+
+👉 O que tiver maior prioridade vence.
+
+🥈 2. Se for o MESMO tipo (mesma prioridade):
+
+👉 vence o que vem por último no código
+
+🧠 Exemplo:
+.texto {
+  color: blue;
+}
+
+.texto {
+  color: red;
+}
+
+👉 Resultado: vermelho
+Porque foi o último declarado
+
+🎯 Resumão perfeito (pra prova):
+
+A cascata no CSS define qual estilo será aplicado 
+com base na prioridade das regras e, em caso de empate, prevalece 
+a última declaração.
+
+
+*/
+
+/* 🎨 Exemplo 1 — usando só TAG */
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+button {
+  background-color: gray;
+  color: white;
+}
+
+/*
+👉 Aqui todos:
+
+h1 ficam azuis
+
+p ficam verdes
+
+button ficam cinza
+
+🎨 Exemplo 2 — mostrando a cascata (mesma tag)*/
+
+p {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+/*
+👉 Resultado: vermelho
+👉 Porque foi o último declarado
+
+🎨 Exemplo 3 — misturando regras*/
+button {
+  background-color: blue;
+}
+
+button {
+  background-color: green;
+}
+
+/*
+👉 Resultado: botão verde
+
+🎨 Exemplo 4 — múltiplas tags*/
+
+h1, p {
+  font-family: Arial;
+}
+
+/*
+👉 Aplica a mesma regra para os dois
+
+🧠 Resumão simples:
+
+CSS aplica regras nas tags
+
+Se repetir regra → a última vence
+
+Isso é a cascata
+*/

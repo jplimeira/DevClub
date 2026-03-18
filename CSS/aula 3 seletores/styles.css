@@ -1,0 +1,79 @@
+/* o asterisco serve para selecionar tudo e aplicar as mesmas 
+configurações em todos ao mesmo tempo*/
+
+/*
+
+* {
+
+}   
+
+*/
+
+
+/*
+class
+Usada para identificar um ou vários elementos com o mesmo estilo.
+No CSS, é chamada com . antes do nome.
+
+Exemplo:
+
+.botao {
+  color: white;
+}
+
+id
+Usado para identificar um único elemento específico na página.
+No CSS, é chamado com # antes do nome.
+
+Exemplo:
+
+#titulo {
+  color: blue;
+}
+
+Você pode anotar assim no código:
+
+class = pode repetir em vários elementos 
+id = usado em um elemento único 
+
+Exemplo no HTML:
+
+<h1 id="titulo">Meu título</h1>
+<p class="texto">Parágrafo 1</p>
+<p class="texto">Parágrafo 2</p> */
+
+
+/*EXEMPLOS*/
+
+.tituloparag {
+    background-color: rgb(196, 194, 194);
+}
+
+#titulo {
+    color:cyan;
+    font-size: 30px;
+}
+
+#paragrafo {
+  color: cadetblue;
+  font-family: cursive;
+}
+
+#educadin {
+  color: beige;
+  background-color: rgb(103, 187, 187);
+  border-color: rgb(12, 119, 168);
+
+}
+
+#maleducado {
+  color: white;
+  background-color: grey;
+  border-color: darkgray;
+}
+
+
+/*também é possível fazer esilização de dois id ao mesmo tempo*/
+#maleducado, #educadin {
+  border-width: 3px;
+}

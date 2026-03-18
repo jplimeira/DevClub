@@ -1,0 +1,33 @@
+/* 🎨 ESTILOS DE CORES EM CSS */
+/* sites para consulta de cores: w3schools, 
+color.adobe, coolors e a extensão do chrome com nome de: colorzilla */
+
+/* 👉 background-color = cor de fundo da página (HEX) */
+/* HEX usa #RRGGBB (vermelho, verde, azul) */
+body {
+  background-color: #f0f0f0; /* cinza claro */
+}
+
+/* 👉 color = cor do texto (nome da cor) */
+h1 {
+  color: blue; /* azul */
+}
+
+/* 👉 HSL = cor baseada em tom, saturação e luz */
+h2 {
+  color: hsl(0, 100%, 50%); /* vermelho */
+}
+
+/* 👉 RGB = mistura de vermelho, verde e azul (0 a 255) */
+p {
+  color: rgb(100, 100, 100); /* cinza */
+}
+
+/* 👉 RGBA = igual RGB + transparência (0 a 1) */
+button {
+  background-color: rgba(199, 199, 236, 0.5); /* azul transparente */
+  color: white; /* cor do texto */
+  padding: 3px;
+  border-color: black;
+  border: 5;
+}
