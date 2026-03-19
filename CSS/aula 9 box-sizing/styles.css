@@ -1,0 +1,57 @@
+*{
+   box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: #8500ad;
+    padding: 20px;
+    border: 10px solid #440258;
+}
+
+/* =========================
+   BOX-SIZING
+   ========================= */
+
+/* Define como o tamanho total do elemento é calculado */
+
+/* Por padrão (content-box) */
+ /* box-sizing: content-box; */
+ /* width e height consideram APENAS o conteúdo */
+ /* padding e border são SOMADOS ao tamanho final */
+
+/* Exemplo mental:
+   width: 100px + padding + border = maior que 100px */
+
+
+/* Forma recomendada (border-box) */
+ /* box-sizing: border-box; */
+ /* width e height já incluem padding e border */
+ /* o tamanho total NÃO aumenta */
+
+/* Exemplo mental:
+   width: 100px = conteúdo + padding + border */
+
+
+/* =========================
+   DIFERENÇA RÁPIDA
+   ========================= */
+
+/* content-box = cresce o tamanho total */
+/* border-box  = mantém o tamanho fixo */
+
+
+/* =========================
+   BOA PRÁTICA
+   ========================= */
+
+/* Usar em todo o projeto */
+ /*
+ * {
+    box-sizing: border-box;
+ }
+ */
+
+/* Evita cálculos complicados e mantém layout previsível */

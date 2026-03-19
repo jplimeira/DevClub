@@ -1,0 +1,24 @@
+h1{
+    color: red; /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
+    font-family: "Inter", sans-serif; /* Tipo da fonte (principal + alternativa) */
+    font-optical-sizing: auto; /* Ajuste automático da fonte (fontes variáveis) */
+    font-weight: 600; /* Espessura da fonte (semi-negrito) */
+    font-style: italic; /* Estilo da fonte (itálico) */
+    text-shadow: 5px 5px 15px red; /* Sombra no texto (x, y, blur, cor) */
+}
+
+p{
+    color: blue; /* Cor do texto */
+    font-size:20px; /* Tamanho da fonte */
+    font-family: "Inter", sans-serif; /* Tipo da fonte */
+    font-optical-sizing: auto; /* Ajuste automático da fonte */
+    font-weight: 550; /* Espessura da fonte */
+    font-style: italic; /* Texto em itálico */
+    line-height: 120px; /* Altura da linha (espaço entre linhas) */
+    letter-spacing: 5px; /* Espaço entre letras */
+    word-spacing: 40px; /* Espaço entre palavras */
+    text-align: center; /* Alinhamento do texto */
+    text-transform: lowercase; /* Transforma tudo em minúsculo */
+    text-decoration: underline; /* Sublinha o texto */
+}

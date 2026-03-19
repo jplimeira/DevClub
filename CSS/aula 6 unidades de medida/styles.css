@@ -1,0 +1,41 @@
+
+html{
+    font-size: 20px;
+}
+
+.vo {
+    font-size: 16px;
+}
+
+.pai {
+    width:50vw; 
+    height: 50vw;
+    background: #0000ff;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+/*
+Unidades de medidas
+
+    -->Absolutas
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    --> Relativas
+        %  calcula o tamanho relativo ao elemento pai
+        vw (view width) 1wv é 1% da largura da janela do navegador
+        vh (view height) 1vh é 1% da altura da janela do navegador
+        em é uma unidade relativa ao elemento pai(estrutura que ele está dentro)
+        rem é uma unidade relativa ao elemento raiz (html ou body)
+
+*/
