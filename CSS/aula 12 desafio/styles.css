@@ -2,21 +2,23 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    font-size: 14px;
-    font-weight: 400;
     margin: 42px 0 0 47px;
 }
 
 .links-header {
+    font-size: 14px;
+    font-weight: 400;
     width: 37;
     height: 21;
     line-height: 100%;
     color: #17233D;
-    margin: 32px;
+    margin-right: 32px;
     cursor: pointer;
+    letter-spacing: 0.875px;
 }
 
 .button-header {
@@ -28,24 +30,25 @@ header {
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .img-home {
     width: 595.18px;
     height: 500px;
-    margin: 163px 84.82px 102px 121px;
+    margin: 163px 0px 0px 121px;
     display: inline-block;
 }
 
-div {
+div{
     display: inline-block;
-    position: absolute;
-    top: 342px;
+    margin-left: 85px;
+    width: 493px;
 }
 
 h1 {
     font-weight: 700;
-    width: 582px;
+    line-height: 62px;
     font-size: 62px;
     line-height: 82px;
     color: #161A49;
@@ -64,8 +67,6 @@ p {
 }
 
 .link-main {
-    width: 112;
-    height: 27;
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
