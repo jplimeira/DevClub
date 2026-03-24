@@ -1,0 +1,71 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:nth-child(4) {
+    color: blue;
+}
+/* =========================
+   PSEUDO-CLASSES (RESUMO)
+   ========================= */
+
+/* Pseudo-classes = estados do elemento (usam ":") */
+
+/* -------- INTERAÇÃO -------- */
+
+/* :hover → quando passa o mouse */
+/* button:hover { } */
+
+/* :active → quando está clicando */
+/* button:active { } */
+
+/* :focus → quando está selecionado (input, textarea, etc) */
+/* input:focus { } */
+
+/* -------- LINKS -------- */
+
+/* :link → link normal (não visitado)
+a:link { }
+
+/* :visited → link já visitado */
+/* a:visited { } */ 
+
+/* -------- ESTRUTURA -------- */
+
+/* :first-child → primeiro filho */
+/* li:first-child { } */
+
+/* :last-child → último filho */
+/* li:last-child { } */
+
+/* :nth-child(n) → posição específica */
+/* li:nth-child(2) { } */
+
+/* even → pares */
+/* li:nth-child(even) { } */
+
+/* odd → ímpares */
+/* li:nth-child(odd) { } */
+
+/* -------- FORMULÁRIOS -------- */
+
+/* :checked → marcado (checkbox/radio) */
+/* input:checked { } */
+
+/* :disabled → desabilitado */
+/* input:disabled { } */
+
+/* -------- OUTROS -------- */
+
+/* :not() → tudo menos o que estiver dentro
+p:not(.classe) { } */
+
+/* =========================
+   RESUMO FINAL:
+   ":" = estado do elemento
+   Ex: hover, focus, active
+   ========================= */

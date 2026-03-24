@@ -1,0 +1,44 @@
+/* POSITION (posicionamento dos elementos)
+
+static   -> padrão, não permite mover com top/left
+relative -> move em relação à posição original (mantém espaço)
+absolute -> sai do fluxo e usa o pai como referência
+            -se for static ou não tiver pai, posiciona referente a página
+            -se o pai não for static, posiciona referente ao pai
+fixed    -> fica fixo na tela (não rola com a página)
+sticky   -> gruda na tela ao rolar (até certo ponto)
+
+Propriedades usadas junto:
+top, bottom, left, right -> controlam a posição
+z-index -> define quem fica na frente
+
+Dica:
+absolute sempre procura um pai com position diferente de static
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background-color: #FF1396;
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background-color: #FFFF00;
+}
+
+.undaiá {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 700px;
+    width: 700px;
+    background: blue;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    div {
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* ================= @MEDIA (RESPONSIVIDADE) ================= */
+
+/* @media = usado para aplicar estilos dependendo do tamanho da tela */
+
+/* Sintaxe:
+   @media (condicao) { estilos } */
+
+
+/* max-width:
+   aplica estilos para telas MENORES que o valor definido */
+
+/* min-width:
+   aplica estilos para telas MAIORES que o valor definido */
+
+
+/* Exemplo de uso:
+   layout muda no celular (tela pequena) */
+
+
+/* MOBILE FIRST:
+   primeiro faz para celular (padrão),
+   depois usa min-width para telas maiores */
+
+
+/* Breakpoints (pontos de quebra mais usados):
+
+   480px → celular pequeno
+   600px → celular
+   768px → tablet
+   1024px → notebook
+   1200px → desktop grande */
+
+
+/* Outras condições possíveis:
+
+   orientation: landscape → tela deitada
+   orientation: portrait → tela em pé
+
+   prefers-color-scheme: dark → modo escuro */
+
+
+/* Boas práticas:
+
+   ✔ usar mobile first (min-width)
+   ✔ usar poucos breakpoints
+   ✔ testar em diferentes telas
+   ✔ usar flexbox ou grid junto */
+
+
+/* Evitar:
+
+   ❌ usar muitos tamanhos fixos (px)
+   ❌ criar muitos breakpoints sem necessidade
+   ❌ esquecer de testar no celular */
+
+
+/* Resumo:
+
+   @media controla como o site se adapta
+   a diferentes tamanhos de tela */
